@@ -1,0 +1,234 @@
+.InfoPage {
+  display: flex;
+}
+.content {
+  /* background-color: rgba(243, 243, 243, 0.904) !important; */
+  background-color: rgb(255, 255, 255) !important;
+  width: 1200px;
+  margin: auto;
+  color: rgba(15, 48, 75, 0.685);
+  text-align: left;
+}
+
+.texts {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 100px;
+  width: 100%;
+
+  column-gap: 0px;
+  row-gap: 0px;
+  padding: 0px 0px;
+  justify-content: center;
+  background-color: rgba(243, 243, 243, 0.904);
+}
+.welcomeCenter {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 0em;
+
+  background-color: white;
+  border-radius: 0px;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(12, 67, 155);
+}
+.welcomeLeft {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 5;
+
+  padding: 1.3em;
+  background-color: white;
+  border-radius: 0px;
+  font-weight: normal;
+
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcomeRight {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  background-color: white;
+  padding: 1.3em;
+
+  border-radius: 0px;
+  font-weight: normal;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roadTrafficLeft {
+  grid-column-start: 1;
+  grid-row-start: 5;
+  grid-row-end: 15;
+
+  padding: 1.3em;
+  background-color: white;
+  border-radius: 0px;
+  font-weight: normal;
+
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roadTrafficRight {
+  grid-column-start: 2;
+  grid-row-start: 5;
+  grid-row-end: 15;
+
+  padding: 1.3em;
+  background-color: white;
+  border-radius: 0px;
+  font-weight: normal;
+
+  text-align: left;
+  position: relative;
+}
+
+.trainTrafficLeft {
+  grid-column-start: 1;
+  grid-row-start: 15;
+  grid-row-end: 20;
+
+  padding: 1.3em;
+  background-color: white;
+  border-radius: 0px;
+  font-weight: normal;
+
+  text-align: left;
+  position: relative;
+}
+
+.trainTrafficRight {
+  grid-column-start: 2;
+  grid-row-start: 15;
+  grid-row-end: 20;
+
+  padding: 1.3em;
+  background-color: white;
+  border-radius: 0px;
+  font-weight: normal;
+
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seeTrafficLeft {
+  grid-column-start: 1;
+  grid-row-start: 20;
+  grid-row-end: 25;
+
+  padding: 1.3em;
+  background-color: white;
+  border-radius: 0px;
+  font-weight: normal;
+
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seeTrafficRight {
+  grid-column-start: 2;
+  grid-row-start: 20;
+  grid-row-end: 25;
+
+  padding: 1.3em;
+  background-color: white;
+  border-radius: 0px;
+  font-weight: normal;
+
+  text-align: left;
+  position: relative;
+}
+
+@media only screen and (max-width: 900px) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 100px;
+
+    column-gap: 0px;
+    row-gap: 0px;
+    padding: 0px;
+    justify-content: center;
+  }
+
+  .welcomeCenter {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 1.3em;
+
+    border-radius: 6px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .welcomeRight {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    padding: 0;
+  }
+  .welcomeLeft {
+    grid-column-start: 1;
+    grid-row-start: 6;
+    grid-row-end: 8;
+  }
+  .roadTrafficLeft {
+    grid-column-start: 1;
+    grid-row-start: 8;
+    grid-row-end: 11;
+    padding: 0;
+  }
+  .roadTrafficRight {
+    grid-column-start: 1;
+    grid-row-start: 11;
+    grid-row-end: 23;
+  }
+
+  .trainTrafficRight {
+    grid-column-start: 1;
+    grid-row-start: 23;
+    grid-row-end: 27;
+    padding: 0;
+  }
+  .trainTrafficLeft {
+    grid-column-start: 1;
+    grid-row-start: 27;
+    grid-row-end: 33;
+  }
+
+  .seeTrafficLeft {
+    grid-column-start: 1;
+    grid-row-start: 33;
+    grid-row-end: 36;
+    padding: 0;
+  }
+  .seeTrafficRight {
+    grid-column-start: 1;
+    grid-row-start: 36;
+    grid-row-end: 38;
+  }
+}

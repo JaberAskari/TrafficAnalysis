@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  background-color: rgba(243, 243, 243, 0.904);
+}
+
+.navbarmenu {
+  background-color: #0051adde;
+  padding: 1em 2.5em;
+}
+
+.nav-brand {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-right: 2em;
+}
+
+.link {
+  font-weight: bold;
+  font-size: 1em;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(250, 250, 250);
+}
+
+.navIcons {
+  margin-top: 7px;
+  margin-right: 3px;
+  color: aliceblue;
+  float: left;
+}
+
+.FooterContainer {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-auto-rows: 100%;
+  column-gap: 300px;
+  margin: auto;
+}
+.FooterSources {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  text-align: left;
+}
+
+.FooterContact {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  text-align: left;
+}
+.Footer {
+  display: flex;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 975px) {
+  .App {
+    text-align: left;
+  }
+
+  .FooterContainer {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 150px;
+    column-gap: 0px;
+  }
+  .FooterSources {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    text-align: left;
+  }
+
+  .FooterContact {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    text-align: left;
+  }
+}
