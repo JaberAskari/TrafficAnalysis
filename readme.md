@@ -6,14 +6,14 @@ Jamk University of Applied Science<br/>
 ICT, Programming<br/>
 
 # Table of Contents
-[](https://github.com/JaberAskari/TrafficAnalysis#introduction)<br/>
-[](#what-has-been-done)<br/>
-[](ROAD TRAFFIC)<br/>
-[](HEAVY TRAIN TRAFFIC)<br/>
-[](CHALLENGES)<br/>
-[](FUTURE DEVELOPMENT)<br/>
-[](WHAT I HAVE LEARNED)<br/>
-<br/>
+[](https://github.com/JaberAskari/TrafficAnalysis#introduction)
+[](https://github.com/JaberAskari/TrafficAnalysis#what-has-been-done)
+[](https://github.com/JaberAskari/TrafficAnalysis#road-traffic)
+[](https://github.com/JaberAskari/TrafficAnalysis#heavy-train-traffic)
+[](https://github.com/JaberAskari/TrafficAnalysis#challenges)
+[](https://github.com/JaberAskari/TrafficAnalysis#future-development)
+[](https://github.com/JaberAskari/TrafficAnalysis#future-development#what-i-have-learnd)
+
 # Introduction
 
 This project was a summer internship project for JAMK university of applied science. The subject was to figure out the amount of heavy traffic in Finland using open data offered by Finnish Transport Infrastructure Agency (vayla.fi) and Traffic Management Finland (digitraffic.fi).
@@ -36,10 +36,10 @@ This project can be divided into 2 main parts, road traffic and heavy train traf
 
 This part uses open data from Finnish Transport Agency (vayla.fi). The Finnish Transport Agency collects data about road traffic using an automatic traffic monitoring system (TMS, also referred as LAM). The data is shared both in raw form and as generated reports. Currently, there are about 500 traffic measuring stations in Finland. <br/>
 In road traffic analysis that consumed most of the time spent on this project, analyzes amount of traffic and average speed using the data from 500 different TMS points across Finland in a specific time interval and location.<br/>
-When a TMS point is selected the related data such as address, ID number, city, province, each direction destination, installation date, coordinates and status of the point will be visible for user to see in a table.<br/>
+When a TMS point is selected the related data such as address, ID number, city, province, each direction destination, installation date, coordinates and status of the point will be visible for user to see in a table.<br/><br/>
 **Filters:**<br/>
 When a user selects a location and time to see the results, it is possible to filter the results based on user preference such as vehicle category and direction. By the help of these filters user can choose from 7 different vehicle categories to see the result of each of them individually. Also, user can choose to see the data only in one direction of street.<br/>
-In default user will see the data for all vehicle types in both direction of street.<br/>
+In default user will see the data for all vehicle types in both direction of street.<br/><br/>
 **Sub menus**<br/>
 The road traffic analysis has 4 sub menus as blow:<br/>
 
@@ -64,6 +64,6 @@ Another challenge happened when developing train traffic part. The application h
 
 In this internship I could not complete the project goal totally. I could do only road and train traffic part. Marine traffic and airplane traffic are missing from the project and might be continued in future.<br/>
 Marine traffic and airplane traffic can be implemented in this application in the future to create a good perspective of heavy traffic all over Finland.<br/>
-# What I have learned
+# What I have learnd
 During this internship I realized the importance of planning, application’s structure and timing. I understood that if a project has not been planned properly it will take much longer to complete and a bad over all structure for application can result in having many bugs and performance issues. <br/>
 Also, I could deepen my skills in React js, Node js, Express and Python that for sure will be helpful in my future working life.
