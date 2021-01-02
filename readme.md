@@ -7,8 +7,8 @@ ICT, Programming
 
 # Table of Contents
 
-[](INTRODUCTION)
-[](WHAT HAS BEEN DONE)
+[](#introduction)
+[](#what-has-been-done)
 [](ROAD TRAFFIC)
 [](HEAVY TRAIN TRAFFIC)
 [](CHALLENGES)
@@ -22,14 +22,15 @@ The goal of the project was to analyze the amount of road traffic, heavy marine 
 
 # What has been done
 
-At the beginning of the project I read though all the links, open data and APIs that were offering open and free data about traffic in Finland. The main source was the open data files offered by Finnish Transport Infrastructure Agency and API in digitraffic.fi offered by Traffic Management Finland.
+At the beginning of the project I read though all the links, open data and APIs that were offering open and free data about traffic in Finland. The main source was the open data files offered by Finnish Transport Infrastructure Agency and API in digitraffic.fi offered by Traffic Management Finland.<br/>
 The technologies that have been used for developing this project are as follow:
 
 - React js: used for developing frontend and interface
 - Node js/Express: used for backend part and server
 - Python: Pandas library from python is used to analyze data from each Transport Measurement System (TMS) points.
-  The project workflow is like when a user selects a TMS point and date a request containing the user input data will be sent to backend server. In backend the data will be checked and validated and then sent to python to run the analysis. In python the input data will construct a URL pointing to the right file (offered by vayla.fi open data) of the selected TMS location. Each TMS location has a csv file for everyday of year. Python uses the Pandas library to analyze the file and returns traffic amount and average speed of the location and send it back to the frontend as a json file. Then the frontend will visualize the received data as graphs for user.
-  This project can be divided into 2 main parts, road traffic and heavy train traffic.
+
+The project workflow is like when a user selects a TMS point and date a request containing the user input data will be sent to backend server. In backend the data will be checked and validated and then sent to python to run the analysis. In python the input data will construct a URL pointing to the right file (offered by vayla.fi open data) of the selected TMS location. Each TMS location has a csv file for everyday of year. Python uses the Pandas library to analyze the file and returns traffic amount and average speed of the location and send it back to the frontend as a json file. Then the frontend will visualize the received data as graphs for user.
+This project can be divided into 2 main parts, road traffic and heavy train traffic.
 
 ## Road Traffic
 
