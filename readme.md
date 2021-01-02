@@ -6,13 +6,13 @@ Jamk University of Applied Science<br/>
 ICT, Programming<br/>
 
 # Table of Contents
-[](https://github.com/JaberAskari/TrafficAnalysis#introduction)
-[](https://github.com/JaberAskari/TrafficAnalysis#what-has-been-done)
-[](https://github.com/JaberAskari/TrafficAnalysis#road-traffic)
-[](https://github.com/JaberAskari/TrafficAnalysis#heavy-train-traffic)
-[](https://github.com/JaberAskari/TrafficAnalysis#challenges)
-[](https://github.com/JaberAskari/TrafficAnalysis#future-development)
-[](https://github.com/JaberAskari/TrafficAnalysis#future-development#what-i-have-learnd)
+[Introduction](https://github.com/JaberAskari/TrafficAnalysis#introduction)
+[What has been done](https://github.com/JaberAskari/TrafficAnalysis#what-has-been-done)
+[Road Traffic](https://github.com/JaberAskari/TrafficAnalysis#road-traffic)
+[Heavy train traffic](https://github.com/JaberAskari/TrafficAnalysis#heavy-train-traffic)
+[Challenges](https://github.com/JaberAskari/TrafficAnalysis#challenges)
+[Future development](https://github.com/JaberAskari/TrafficAnalysis#future-development)
+[What I have learnd](https://github.com/JaberAskari/TrafficAnalysis#future-development#what-i-have-learnd)
 
 # Introduction
 
